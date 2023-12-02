@@ -1,8 +1,8 @@
 extern crate maplit;
-pub mod day1_part1;
-pub mod day1_part2;
+pub mod day2_part1;
+pub mod day2_part2;
 fn main() {
-    day1_part1::day1_part1();
-    print!(" ");
-    day1_part2::day1_part2();
+    day2_part1::day2_part1();
+    print!("{}", "\n");
+    day2_part2::day2_part2();
 }
